@@ -18,9 +18,9 @@
             <Image url="@../../../imgs/AVION.gif" />
          </image>
       </ImageView>
-      <ImageView fx:id="enemigo" fitHeight="150.0" fitWidth="200.0" layoutX="838.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="enemigo" fitHeight="150.0" fitWidth="200.0" layoutX="838.0" layoutY="285.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../imgs/helicoptero.gif" />
+            <Image url="@../../../imgs/source.gif" />
          </image>
       </ImageView>
       <Label fx:id="end" layoutX="354.0" layoutY="304.0" text="GAME OVER" visible="false">
@@ -28,14 +28,14 @@
             <Font name="Baskerville Old Face" size="96.0" />
          </font>
       </Label>
-      <ImageView fx:id="enemigo2" fitHeight="150.0" fitWidth="150.0" layoutX="1058.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="enemigo2" fitHeight="150.0" fitWidth="200.0" layoutX="1058.0" layoutY="210.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../imgs/helicoptero.gif" />
+            <Image url="@../../../imgs/source.gif" />
          </image>
       </ImageView>
-      <ImageView fx:id="enemigo3" fitHeight="150.0" fitWidth="200.0" layoutX="1058.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="enemigo3" fitHeight="150.0" fitWidth="200.0" layoutX="1058.0" layoutY="360.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../imgs/helicoptero.gif" />
+            <Image url="@../../../imgs/source.gif" />
          </image>
       </ImageView>
    </children>

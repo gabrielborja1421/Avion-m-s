@@ -111,7 +111,7 @@ public class HelloController implements Observer {
                         }
 
 
-                if(avionAliado.getBoundsInParent().intersects(enemigo.getBoundsInParent())) {
+                if(avionAliado.getBoundsInParent().intersects(enemigo.getBoundsInParent())|| avionAliado.getBoundsInParent().intersects(enemigo2.getBoundsInParent())|| avionAliado.getBoundsInParent().intersects(enemigo3.getBoundsInParent())) {
                         //|| avionAliado.getBoundsInParent().intersects(enemigo2.getBoundsInParent())|| avionAliado.getBoundsInParent().intersects(enemigo2.getBoundsInParent())|| avionAliado.getBoundsInParent().intersects(enemigo3.getBoundsInParent())
                         helicoptero.setEstado(false);
                         helicoptero2.setEstado(false);
@@ -122,9 +122,9 @@ public class HelloController implements Observer {
 
 
                 if (enemigo.getLayoutX() <= -130){
-                        int aleatorio = random.nextInt((520));
-                        int aleatorio2 = random.nextInt((520));
-                        int aleatorio3 = random.nextInt((520));
+                        int aleatorio = random.nextInt((350));
+                        int aleatorio2 = random.nextInt((530));
+                        int aleatorio3 = random.nextInt((620));
 
                         this.helicoptero.setEstado(false);
                         this.enemigo.setVisible(false);
@@ -146,13 +146,13 @@ public class HelloController implements Observer {
                                 this.helicoptero2.setEstado(true);
                                 helicoptero2.posicion(new Vector(2, 1400, aleatorio2));
                                 this.enemigo2.setVisible(true);
-                                enemigo2.setLayoutY(aleatorio);
+                                enemigo2.setLayoutY(aleatorio2);
                                 enemigo2.setLayoutX(1400);
 
                                 this.helicoptero3.setEstado(true);
                                 helicoptero3.posicion(new Vector(3, 1400, aleatorio3));
                                 this.enemigo3.setVisible(true);
-                                enemigo3.setLayoutY(aleatorio);
+                                enemigo3.setLayoutY(aleatorio3);
                                 enemigo3.setLayoutX(1400);
 
                         }
